@@ -2,8 +2,7 @@
 	define("TITLE", "Ottopoika");
 	
 	include('header.php');
-	// Set user-defined error handler function
-	//				set_error_handler("myErrorHandler");
+	
 ?>
 
 	<div id="philosophy">

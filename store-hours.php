@@ -42,8 +42,8 @@ $exceptions = array(
 // Optional: use %exception% to make your exception messages dynamic.
 $open_now = "<strong class='open'>Olemme avoinna tänään %open% - %closed%. Tervetuloa!</strong>";
 $closed_now = "<strong class='closed'>Valitettavasti olemme kiinni. Avoinna tänään %open% - %closed%.</strong>";
-$closed_all_day = "<strong class='closed'>Valitettavasti olemme kiinni. %day%.</strong>";
-$exception = "<strong class='closed'>Valitettavasti olemme kiinni. %exception%.</strong>";
+$closed_all_day = "<strong class='closed'>Valitettavasti olemme kiinni %day%.</strong>";
+$exception = "<strong class='closed'>Valitettavasti olemme kiinni %exception%.</strong>";
 
 // Enter custom time format if using %open% and %closed%
 // (options listed here: http://php.net/manual/en/function.date.php)
@@ -52,13 +52,13 @@ $time_format = 'H:i';
 // The %day% shortcode is replaced by these days of the week.
 // Edit these if you'd like to use a language other than English.
 $days = array(
-  'mon' => 'Mondays',
-  'tue' => 'Tuesdays',
-  'wed' => 'Wednesdays',
-  'thu' => 'Thursdays',
-  'fri' => 'Fridays',
-  'sat' => 'Saturdays',
-  'sun' => 'Sundays'
+  'mon' => 'maanantaisin',
+  'tue' => 'tiistaisin',
+  'wed' => 'keskiviikkoisin',
+  'thu' => 'torstaisin',
+  'fri' => 'perjantaisin',
+  'sat' => 'lauantaisin',
+  'sun' => 'sunnuntaisin'
 );
 
 

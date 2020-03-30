@@ -86,7 +86,7 @@
 					"super-salad" => array(
 						
 						"title"	=> "Fantasia neljällä omavalintaisella täytteellä <sup>&reg;</sup>",
-						"price"	=> 34,
+						"price"	=> 24,
 						"blurb"	=> "Täytevaihtoehdot: Kinkku, pepperonimakkara, pekoni, ilmakuivattu kinkku, kana, savuporo, katkarapu, kylmäsavukirjolohi, tonnikala, simpukka, anjovis, vuohenjuusto, Aura®-juusto, cheddarjuusto, punasipuli, ananas, suolakurkku, herkkusieni, rucola, tomaatti, paprika, kapris, jalapeno, ranskankerma, BBQ-kastike, bearnaisekastike, Beanit härkäpapu ",
 						"drink"	=> "4 pitkää"
 						
@@ -95,7 +95,7 @@
 					"mexican-barbacoa" => array(
 						
 						"title"	=> "Pippuripihvi",
-						"price"	=> 23,
+						"price"	=> 29,
 						"blurb"	=> "Pariloitu naudan sisäfileepihvi (150g),pippurinen jaloviina-kermakastike,lohkoperunoita ja lämpimiä kasviksia",
 						"drink"	=> "Pullo punkkua"
 						

@@ -5,7 +5,7 @@
 	include('header.php');
 	
 	// Strip bad characters function
-	// Learn more about preg_replace: http://php.net/manual/en/function.preg-replace.php
+
 	function strip_bad_chars( $input ) {
 		$output = preg_replace( "/[^a-zA-Z0-9_-]/", "",$input);
 		return $output;
@@ -26,9 +26,9 @@
 		<h1><?php echo $dish["title"]; ?> <span class="price">€<?php echo $dish["price"]; ?></span></h1>
 		<p><?php echo $dish["blurb"]; ?></p>
 		<br>
-		<p><strong>SSopiva juoma: <?php echo $dish["drink"]; ?></strong></p>
+		<p><strong>Sopiva juoma: <?php echo $dish["drink"]; ?></strong></p>
 		
-	</div><!-- dish -->
+	</div>
 	
 	<hr>
 	
